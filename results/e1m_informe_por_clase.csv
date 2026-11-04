@@ -1,0 +1,13 @@
+,precision,recall,f1-score,support
+Bacteriología,0.516,0.54,0.528,213.0
+Enfermería,0.263,0.361,0.304,122.0
+Fisioterapia,0.47,0.504,0.486,139.0
+Medicina,0.295,0.249,0.27,205.0
+Odontología,0.169,0.193,0.18,145.0
+Optometría,0.38,0.335,0.356,170.0
+Psicología,0.327,0.276,0.299,232.0
+Terapia Ocupacional,0.449,0.496,0.471,125.0
+Terapia Respiratoria,0.129,0.116,0.122,112.0
+accuracy,0.344,0.344,0.344,0.344
+macro avg,0.333,0.341,0.335,1463.0
+weighted avg,0.344,0.344,0.342,1463.0

@@ -1,0 +1,25 @@
+origen,profesion,menciona_profesion
+Colombia,Bacteriología,0.211
+Colombia,Enfermería,0.754
+Colombia,Fisioterapia,0.842
+Colombia,Medicina,0.532
+Colombia,Odontología,0.641
+Colombia,Optometría,0.547
+Colombia,Psicología,0.522
+Colombia,Terapia Ocupacional,0.528
+Colombia,Terapia Respiratoria,0.482
+Internacional,Bacteriología,0.044
+Internacional,Enfermería,0.479
+Internacional,Fisioterapia,0.844
+Internacional,Fonoaudiología,0.0
+Internacional,Gerontología,1.0
+Internacional,Instrumentación Quirúrgica,0.167
+Internacional,Medicina,0.739
+Internacional,Nutrición y Dietética,0.73
+Internacional,Odontología,0.35
+Internacional,Optometría,0.621
+Internacional,Psicología,0.71
+Internacional,Química Farmacéutica,0.302
+Internacional,Terapia Ocupacional,0.465
+Internacional,Terapia Respiratoria,0.263
+Internacional,Trabajo Social,0.782

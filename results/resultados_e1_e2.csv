@@ -1,0 +1,25 @@
+experimento,modelo,accuracy,f1_macro
+E1 (texto original),Baseline (clase mayoritaria),0.159,0.03
+E1 (texto original),TF-IDF + Complement NB,0.602,0.599
+E1 (texto original),TF-IDF + Regresión logística,0.651,0.659
+E1 (texto original),TF-IDF + SVM lineal,0.679,0.684
+E1m (profesión enmascarada),Baseline (clase mayoritaria),0.159,0.03
+E1m (profesión enmascarada),TF-IDF + Complement NB,0.29,0.27
+E1m (profesión enmascarada),TF-IDF + Regresión logística,0.332,0.324
+E1m (profesión enmascarada),TF-IDF + SVM lineal,0.344,0.335
+E3 (texto original),Baseline (clase mayoritaria),0.181,0.034
+E3 (texto original),TF-IDF + Complement NB,0.724,0.703
+E3 (texto original),TF-IDF + Regresión logística,0.746,0.732
+E3 (texto original),TF-IDF + SVM lineal,0.764,0.749
+E3m (profesión enmascarada),Baseline (clase mayoritaria),0.181,0.034
+E3m (profesión enmascarada),TF-IDF + Complement NB,0.499,0.465
+E3m (profesión enmascarada),TF-IDF + Regresión logística,0.533,0.509
+E3m (profesión enmascarada),TF-IDF + SVM lineal,0.541,0.516
+E2 (texto original),Baseline (clase mayoritaria),0.14,0.027
+E2 (texto original),TF-IDF + Complement NB,0.362,0.317
+E2 (texto original),TF-IDF + Regresión logística,0.342,0.312
+E2 (texto original),TF-IDF + SVM lineal,0.353,0.322
+E2m (enmascarado),Baseline (clase mayoritaria),0.14,0.027
+E2m (enmascarado),TF-IDF + Complement NB,0.164,0.133
+E2m (enmascarado),TF-IDF + Regresión logística,0.177,0.137
+E2m (enmascarado),TF-IDF + SVM lineal,0.175,0.141

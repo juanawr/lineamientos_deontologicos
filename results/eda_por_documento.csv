@@ -1,0 +1,27 @@
+origen,profesion,doc_id,parrafos,palabras,bloques,mediana_palabras
+Colombia,Bacteriología,CO_BAC,213,5482,47,21.0
+Colombia,Enfermería,CO_ENF,122,5073,78,40.5
+Colombia,Fisioterapia,CO_FIS,139,4605,71,30.0
+Colombia,Medicina,CO_MED,205,5674,126,23.0
+Colombia,Odontología,CO_ODO,145,4341,113,28.0
+Colombia,Optometría,CO_OPT,170,5792,91,32.0
+Colombia,Psicología,CO_PSI,232,8245,104,30.0
+Colombia,Terapia Ocupacional,CO_TO,125,4599,66,35.0
+Colombia,Terapia Respiratoria,CO_TR,112,3508,54,26.5
+Internacional,Bacteriología,INT_CMQC,91,4308,61,36.0
+Internacional,Enfermería,INT_CIE,213,6264,31,25.0
+Internacional,Fisioterapia,INT_APTA,64,1623,8,22.5
+Internacional,Fonoaudiología,INT_ASHA,93,4043,11,38.0
+Internacional,Gerontología,INT_NAPG,12,899,3,70.0
+Internacional,Instrumentación Quirúrgica,INT_ANIC,18,373,14,20.5
+Internacional,Medicina,INT_CIEM,32,609,9,18.0
+Internacional,Medicina,INT_GINEBRA,20,275,2,12.5
+Internacional,Medicina,INT_OMC,266,9156,71,32.0
+Internacional,Nutrición y Dietética,INT_CFN,178,6940,124,36.0
+Internacional,Odontología,INT_DENT,448,10643,164,21.0
+Internacional,Optometría,INT_CNOO,269,9493,43,31.0
+Internacional,Psicología,INT_APA,255,11686,31,35.0
+Internacional,Química Farmacéutica,INT_PCNZ,106,2804,17,24.0
+Internacional,Terapia Ocupacional,INT_AOTA,142,5922,23,34.5
+Internacional,Terapia Respiratoria,INT_AARC,19,392,2,19.0
+Internacional,Trabajo Social,INT_SASW,110,3515,26,29.0
