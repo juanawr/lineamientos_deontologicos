@@ -43,7 +43,7 @@ def main():
     tab.to_csv("results/eda_por_profesion.csv")
     ax = tab[["Colombia", "Internacional"]].plot.barh(stacked=True, figsize=(7, 5), color=["#2a6f97", "#a9c5d3"])
     ax.set_xlabel("Número de párrafos"); ax.set_ylabel("")
-    ax.set_title("Figura 1. Párrafos por profesión y origen del código")
+    ax.set_title("Párrafos por profesión y origen del código")
     plt.tight_layout(); plt.savefig("figures/fig1_parrafos_por_profesion.png", dpi=150); plt.close()
 
     # 2. Distribución de longitudes
@@ -51,7 +51,7 @@ def main():
     for origen, sub in df.groupby("origen"):
         ax.hist(sub["n_palabras"].clip(upper=200), bins=40, alpha=0.6, label=origen)
     ax.set_xlabel("Palabras por párrafo (recortado a 200)"); ax.set_ylabel("Frecuencia"); ax.legend()
-    ax.set_title("Figura 2. Longitud de los párrafos")
+    ax.set_title("Longitud de los párrafos")
     plt.tight_layout(); plt.savefig("figures/fig2_longitud_parrafos.png", dpi=150); plt.close()
 
     # 3. Vocabulario: términos más frecuentes y peso de los nombres de profesión

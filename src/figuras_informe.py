@@ -20,7 +20,7 @@ for salida, rutas in PANELES.items():
     fig, axes = plt.subplots(1, 2, figsize=(12, 12 / sum(ratios)), gridspec_kw={"width_ratios": ratios})
     for ax, im, letra in zip(axes, imgs, "ab"):
         ax.imshow(im); ax.axis("off")
-        ax.text(0, 0, f"({letra})", fontsize=12, fontweight="bold", va="bottom")
-    plt.subplots_adjust(left=0, right=1, top=0.97, bottom=0, wspace=0.02)
+        ax.text(0, 0, f"({letra})", fontsize=12, fontweight="bold", va="bottom", clip_on=False)
+    plt.subplots_adjust(left=0, right=1, top=0.94, bottom=0, wspace=0.02)
     plt.savefig(salida, dpi=200); plt.close()
     print("->", salida)

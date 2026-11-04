@@ -76,7 +76,8 @@ def main():
             fig, ax = plt.subplots(figsize=(8, 7))
             ConfusionMatrixDisplay.from_predictions(co.profesion, preds[mejor], ax=ax, xticks_rotation=60,
                                                     normalize="true", values_format=".2f", colorbar=False)
-            ax.set_title(f"Figura 3. Matriz de confusión normalizada, E1m ({mejor})")
+            ax.set_xlabel("Predicción"); ax.set_ylabel("Profesión real")
+            ax.set_title(f"Matriz de confusión normalizada, E1m ({mejor})")
             plt.tight_layout(); plt.savefig("figures/fig3_confusion_e1m.png", dpi=150); plt.close()
 
     # E3: 9 profesiones, todos los documentos
@@ -112,7 +113,7 @@ def main():
     ax.axhline(1 / 9, ls="--", c="grey", lw=1, label="Azar (1/9)")
     ax.set_ylabel("F1-macro"); ax.set_xlabel("")
     ax.set_xticklabels(["E1: leyes CO\n(CV agrupada)", "E3: todos los docs\n(CV agrupada)", "E2: CO → internacional"])
-    ax.set_title("Figura 4. F1-macro de SVM lineal por experimento"); ax.legend()
+    ax.set_title("F1-macro de SVM lineal por experimento"); ax.legend()
     plt.tight_layout(); plt.savefig("figures/fig4_f1_experimentos.png", dpi=150); plt.close()
     print(res.to_string(index=False))
 
